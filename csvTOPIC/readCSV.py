@@ -5,12 +5,10 @@
 
 # 🔹 Пример с csv.reader:
 
-import csv
-
-with open('data.csv', newline='') as f:
-    reader = csv.reader(f)
-    for row in reader:
-        print(row)
+# with open('data.csv', newline='') as f:
+#     reader = csv.reader(f)
+#     for row in reader:
+#         print(row)
 
 # 🔹 Пример с pandas:
 

@@ -1,4 +1,7 @@
-from readCSV import df
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+print(df.head())
 
 # При работе с реальными данными часто встречаются:
 # 	•	пропущенные значения (NaN, пустые ячейки),
