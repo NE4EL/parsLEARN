@@ -34,3 +34,5 @@ for poke in pokemon_list:
 
 df = pd.DataFrame(data)
 df.to_csv("pokemon.csv", index=False, encoding="utf-8")
+read = pd.read_csv("pokemon.csv")
+print(read)
